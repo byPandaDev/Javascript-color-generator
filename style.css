@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+}
+
+.codes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.codes button{
+    color: #000;
+    background: none;
+    border: none;
+}
+
+.codes #hex {
+    width: 10rem;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+.codes #rgb {
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.25rem;
+}
+
+.content #generate {
+    margin: 0.5rem;
+    width: 10rem;
+    height:3rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+}
+
+.content #generate:hover {
+    cursor: pointer;
+}
+
+footer {
+    font-family: 'Sora', sans-serif;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    
+}
+
+footer a {
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+/* 
+Made by: PandaDev
+Website: https://codewithpanda.com
+Please Mention PandaDev if you use this Project
+*/
